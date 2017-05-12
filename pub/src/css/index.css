@@ -1,0 +1,50 @@
+
+a{
+  color: #000;
+}
+i{
+  font-style: normal;
+}
+
+em{
+  font-style: normal;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+.clearfix:after, .clearfix:before{
+  content: '';
+  display: table;
+  clear: both;
+}
+.clearfix{
+  zoom: 1;
+}
+.btn{
+  display: inline-block;
+  height: 24px;
+  font-size: 13px;
+  line-height: 24px;
+  padding: 0 10px;
+  border-radius:5px;
+}
+.btn-danger{
+  background-color: #e94840;
+  color: #fff;
+}
+
+/*翻折动画*/
+.show{
+  box-shadow: 0px 0px 5px 0px #888;
+  position: fixed;
+  animation: trunback 1s;
+}
+@keyframes trunback {
+  from {
+    transform: rotateX(90deg);
+  }
+  to{
+    transform: rotateX(0deg);
+  }
+}
