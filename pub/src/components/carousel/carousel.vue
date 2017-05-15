@@ -59,6 +59,9 @@
       this.$nextTick(() => {
         this.interID = this.carousel()
       })
+    },
+    destroyed () {
+      clearInterval(this.interID)
     }
   }
 </script>

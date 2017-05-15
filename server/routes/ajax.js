@@ -1010,7 +1010,6 @@ var template = `<div class="detail_content">
     </div>
   </div>`
 
-
 router.get('/', function (req, res, next) {
   var responseData = {}
   res.set('Access-Control-Allow-Origin', '*')
@@ -1022,6 +1021,8 @@ router.get('/serve', function (req, res, next) {
   var type = req.query.type? req.query.type: 'all'
   var classType = req.query.class
   var response = {result: []}
+  console.log(classType)
+  res.set('Access-Control-Allow-Origin', '*')
   if ('all'===type) {
     serves.forEach(serve => {
       if (serve.classType == classType){

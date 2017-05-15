@@ -6,143 +6,134 @@
         <div class="banner-nav">
           <ul>
             <li class="nav-name">
-              <a href="serve?class=1">
+              <router-link to="/serve">
                 <i>家庭保洁</i>
-                <img src="./right.png">
-              </a>
+              </router-link>
               <ul class="nav-list">
-                <li><a href="serve?class=1" >小时工</a></li>
-                <li><a href="serve?class=1" >开荒保洁</a></li>
-                <li><a href="serve?class=1" >擦玻璃</a></li>
-                <li><a href="serve?class=1" >深度保洁</a></li>
-                <li><a href="serve?class=1" >家居养护</a></li>
-                <li><a href="serve?class=1" >空气净化</a></li>
-                <li><a href="serve?class=1" >杀虫灭鼠</a></li>
+                <li><router-link to="/serve?class=1" >小时工</router-link></li>
+                <li><router-link to="/serve?class=1" >开荒保洁</router-link></li>
+                <li><router-link to="/serve?class=1" >擦玻璃</router-link></li>
+                <li><router-link to="/serve?class=1" >深度保洁</router-link></li>
+                <li><router-link to="/serve?class=1" >家居养护</router-link></li>
+                <li><router-link to="/serve?class=1" >空气净化</router-link></li>
+                <li><router-link to="/serve?class=1" >杀虫灭鼠</router-link></li>
               </ul>
             </li>
             <li class="nav-name">
-              <a href="serve?class=2">
+              <router-link to="/serve?class=2">
                 <i>上门按摩</i>
-                <img src="./right.png">
-              </a>
+                
+              </router-link>
               <ul class="nav-list">
-                <li><a href="serve?class=2" >中医推拿</a></li>
-                <li><a href="serve?class=2" >油压/SPA</a></li>
-                <li><a href="serve?class=2" >局部理疗</a></li>
-                <li><a href="serve?class=2" >足疗套餐</a></li>
-                <li><a href="serve?class=2" >母婴保健</a></li>
+                <li><router-link to="/serve?class=2" >中医推拿</router-link></li>
+                <li><router-link to="/serve?class=2" >油压/SPA</router-link></li>
+                <li><router-link to="/serve?class=2" >局部理疗</router-link></li>
+                <li><router-link to="/serve?class=2" >足疗套餐</router-link></li>
+                <li><router-link to="/serve?class=2" >母婴保健</router-link></li>
               </ul>
             </li>
             <li class="nav-name">
-              <a href="serve?class=3">
+              <router-link to="/serve?class=3">
                 <i>上门维修</i>
-                <img src="./right.png">
-              </a>
+              </router-link>
               <ul class="nav-list">
-                <li><a href="serve?class=3" >家装家修</a></li>
-                <li><a href="serve?class=3" >手机维修</a></li>
-                <li><a href="serve?class=3" >家电维修</a></li>
-                <li><a href="serve?class=3" >电脑维修</a></li>
-                <li><a href="serve?class=3" >管道疏通</a></li>
-                <li><a href="serve?class=3" >安装打孔</a></li>
-                <li><a href="serve?class=3" >开锁换锁</a></li>
+                <li><router-link to="/serve?class=3" >家装家修</router-link></li>
+                <li><router-link to="/serve?class=3" >手机维修</router-link></li>
+                <li><router-link to="/serve?class=3" >家电维修</router-link></li>
+                <li><router-link to="/serve?class=3" >电脑维修</router-link></li>
+                <li><router-link to="/serve?class=3" >管道疏通</router-link></li>
+                <li><router-link to="/serve?class=3" >安装打孔</router-link></li>
+                <li><router-link to="/serve?class=3" >开锁换锁</router-link></li>
               </ul>
             </li>
             <li class="nav-name">
-              <a href="serve?class=4">
+              <router-link to="/serve?class=4">
                 <i>家电清洗</i>
-                <img src="./right.png">
-              </a>
+              </router-link>
               <ul class="nav-list">
-                <li><a href="serve?class=4" >空调清洗</a></li>
-                <li><a href="serve?class=4" >油烟机清洗</a></li>
-                <li><a href="serve?class=4" >洗衣机清洗</a></li>
-                <li><a href="serve?class=4" >冰箱清洗</a></li>
-                <li><a href="serve?class=4" >燃气灶清洗</a></li>
-                <li><a href="serve?class=4" >热水器清洗</a></li>
-                <li><a href="serve?class=4" >微波炉清洗</a></li>
+                <li><router-link to="/serve?class=4" >空调清洗</router-link></li>
+                <li><router-link to="/serve?class=4" >油烟机清洗</router-link></li>
+                <li><router-link to="/serve?class=4" >洗衣机清洗</router-link></li>
+                <li><router-link to="/serve?class=4" >冰箱清洗</router-link></li>
+                <li><router-link to="/serve?class=4" >燃气灶清洗</router-link></li>
+                <li><router-link to="/serve?class=4" >热水器清洗</router-link></li>
+                <li><router-link to="/serve?class=4" >微波炉清洗</router-link></li>
               </ul>
             </li>
             <li class="nav-name">
-              <a href="serve?class=5">
+              <router-link to="/serve?class=5">
                 <i>衣物洗护</i>
-                <img src="./right.png">
-              </a>
+              </router-link>
               <ul class="nav-list">
-                <li><a href="serve?class=5" >洗衣</a></li>
-                <li><a href="serve?class=5" >洗鞋/修鞋</a></li>
-                <li><a href="serve?class=5" >家纺清洗</a></li>
-                <li><a href="serve?class=5" >箱包洗护</a></li>
-                <li><a href="serve?class=5" >定制改衣</a></li>
+                <li><router-link to="/serve?class=5" >洗衣</router-link></li>
+                <li><router-link to="/serve?class=5" >洗鞋/修鞋</router-link></li>
+                <li><router-link to="/serve?class=5" >家纺清洗</router-link></li>
+                <li><router-link to="/serve?class=5" >箱包洗护</router-link></li>
+                <li><router-link to="/serve?class=5" >定制改衣</router-link></li>
               </ul>
 
             </li>
             <li class="nav-name">
-              <a href="serve?class=6">
+              <router-link to="/serve?class=6">
                 <i>美容美妆</i>
-                <img src="./right.png">
-              </a>
+              </router-link>
               <ul class="nav-list">
-                <li><a href="serve?class=6" >化妆</a></li>
-                <li><a href="serve?class=6" >美容</a></li>
-                <li><a href="serve?class=6" >美体塑形</a></li>
-                <li><a href="serve?class=6" >美睫/美眉</a></li>
-                <li><a href="serve?class=6" >上门美发</a></li>
-                <li><a href="serve?class=6" >美甲</a></li>
+                <li><router-link to="/serve?class=6" >化妆</router-link></li>
+                <li><router-link to="/serve?class=6" >美容</router-link></li>
+                <li><router-link to="/serve?class=6" >美体塑形</router-link></li>
+                <li><router-link to="/serve?class=6" >美睫/美眉</router-link></li>
+                <li><router-link to="/serve?class=6" >上门美发</router-link></li>
+                <li><router-link to="/serve?class=6" >美甲</router-link></li>
               </ul>
             </li>
             <li class="nav-name">
-              <a href="serve?class=7">
+              <router-link to="/serve?class=7">
                 <i>上门医护</i>
-                <img src="./right.png">
-              </a>
+              </router-link>
               <ul class="nav-list">
-                <li><a href="serve?class=7" >护士上门</a></li>
-                <li><a href="serve?class=7" >挂号/陪诊</a></li>
-                <li><a href="serve?class=7" >私人医生</a></li>
-                <li><a href="serve?class=7" >康复陪护</a></li>
+                <li><router-link to="/serve?class=7" >护士上门</router-link></li>
+                <li><router-link to="/serve?class=7" >挂号/陪诊</router-link></li>
+                <li><router-link to="/serve?class=7" >私人医生</router-link></li>
+                <li><router-link to="/serve?class=7" >康复陪护</router-link></li>
               </ul>
 
             </li>
             <li class="nav-name">
-              <a href="serve?class=8">
+              <router-link to="/serve?class=8">
                 <i>搬家速运</i>
-                <img src="./right.png">
-              </a>
+              </router-link>
               <ul class="nav-list">
-                <li><a href="serve?class=8" >搬家租车</a></li>
-                <li><a href="serve?class=8" >拆装搬运</a></li>
-                <li><a href="serve?class=8" >搬家套餐</a></li>
-                <li><a href="serve?class=8" >仓储寄存</a></li>
+                <li><router-link to="/serve?class=8" >搬家租车</router-link></li>
+                <li><router-link to="/serve?class=8" >拆装搬运</router-link></li>
+                <li><router-link to="/serve?class=8" >搬家套餐</router-link></li>
+                <li><router-link to="/serve?class=8" >仓储寄存</router-link></li>
               </ul>
             </li>
             <li class="nav-name">
-              <a href="serve?class=9">
+              <router-link to="/serve?class=9">
                 <i>养车用车</i>
-                <img src="./right.png">
-              </a>
+              </router-link>
               <ul class="nav-list">
-                <li><a href="serve?class=9" >上门养车</a></li>
-                <li><a href="serve?class=9" >上门洗车</a></li>
-                <li><a href="serve?class=9" >汽车陪练</a></li>
-                <li><a href="serve?class=9" >机场泊车</a></li>
-                <li><a href="serve?class=9" >验车</a></li>
+                <li><router-link to="/serve?class=9" >上门养车</router-link></li>
+                <li><router-link to="/serve?class=9" >上门洗车</router-link></li>
+                <li><router-link to="/serve?class=9" >汽车陪练</router-link></li>
+                <li><router-link to="/serve?class=9" >机场泊车</router-link></li>
+                <li><router-link to="/serve?class=9" >验车</router-link></li>
               </ul>
 
             </li>
             <li class="nav-name">
-              <a href="serve?class=10">
+              <router-link to="/serve?class=10">
                 <i>保姆月嫂</i>
-                <img src="./right.png">
-              </a>
+              </router-link>
               <ul class="nav-list">
-                <li><a href="serve?class=10" >月嫂</a></li>
-                <li><a href="serve?class=10" >育儿嫂</a></li>
-                <li><a href="serve?class=10" >家务保姆</a></li>
-                <li><a href="serve?class=10" >老人陪护</a></li>
-                <li><a href="serve?class=10" >家居养护</a></li>
-                <li><a href="serve?class=10" >空气净化</a></li>
-                <li><a href="serve?class=10" >杀虫灭鼠</a></li>
+                <li><router-link to="/serve?class=10" >月嫂</router-link></li>
+                <li><router-link to="/serve?class=10" >育儿嫂</router-link></li>
+                <li><router-link to="/serve?class=10" >家务保姆</router-link></li>
+                <li><router-link to="/serve?class=10" >老人陪护</router-link></li>
+                <li><router-link to="/serve?class=10" >家居养护</router-link></li>
+                <li><router-link to="/serve?class=10" >空气净化</router-link></li>
+                <li><router-link to="/serve?class=10" >杀虫灭鼠</router-link></li>
               </ul>
             </li>
           </ul>
@@ -215,6 +206,9 @@ body{
                 &:after{
                   border-right-color: #fff;
                 }
+                &:before{
+                  border-color: transparent;
+                }
               }
             }
             a{
@@ -230,6 +224,19 @@ body{
                 right: 0;
                 border: 6px solid transparent;
                 transform: translateY(-50%);
+              }
+              &:before{
+                border: 1px solid transparent;
+                border-bottom-color: #fff;
+                border-right-color: #fff;
+                transform: rotate(-45deg);
+                display: block;
+                content: '';
+                height: 5px;
+                width: 5px;
+                position: absolute;
+                top: 40%;
+                right: 30px;
               }
               i{
                 margin-right: 15px;
